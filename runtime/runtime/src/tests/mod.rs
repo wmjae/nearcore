@@ -45,7 +45,7 @@ fn create_receipt_with_actions(
     })
 }
 
-/// Create a new account with a full access access key and returns the signer key.
+/// Create a new account with a full access key and returns the signer key.
 fn create_receipt_for_create_account(
     predecessor_id: AccountId,
     predecessor_signer: Arc<Signer>,
